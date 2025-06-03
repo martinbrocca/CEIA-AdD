@@ -70,7 +70,7 @@ La metodología incluyó la carga inicial de datos, la inspección de la calidad
 
 La distribución de los alojamientos muestra una clara concentración en ciertas áreas de la ciudad, principalmente en barrios con alto atractivo turístico y buena conectividad.
 
-![Distribución Geográfica de Alojamientos](./images/mapa_distribucion_alojamientos.png)
+![Distribución Geográfica de Alojamientos](./images/mapa_propiedades_buenos_aires.png)
 
 **Highlight:** Se observa una mayor densidad de propiedades en los barrios céntricos y turísticos como Palermo, Recoleta y San Telmo, lo que indica un fuerte enfoque en el mercado turístico.
 
