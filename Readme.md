@@ -1,9 +1,11 @@
 # Carrera de Especialización de Inteligencia Artificial (CEIA)
 
-## Análisis de Datos
+# Trabajos Práctico Número 1
+### Grupo: 
 
-# Trabajos Prácticos
-
+          - Martín A. Brocca 
+          - Agustín A. Lopez Fredes 
+          - 
 # Análisis Exploratorio de Datos del Dataset de AirBnB en Buenos Aires
 
 Este repositorio contiene un análisis exploratorio de datos (EDA) realizado sobre un dataset público de AirBnB correspondiente a la ciudad de Buenos Aires. El objetivo de este análisis es obtener una comprensión inicial de los datos, identificar patrones, tendencias y posibles áreas de interés para futuros análisis o modelos predictivos.
@@ -24,10 +26,7 @@ Este repositorio contiene un análisis exploratorio de datos (EDA) realizado sob
     * 5.7. Disponibilidad de los Alojamientos
     * 5.8. Relaciones Clave entre Variables
 6.  **Conclusiones**
-7.  **Próximos Pasos**
-8.  **Cómo Ejecutar el Código**
-9.  **Contribuciones**
-10. **Licencia**
+
 
 ---
 
@@ -139,39 +138,3 @@ El análisis de correlaciones reveló algunas relaciones interesantes entre las 
 
 Este análisis exploratorio nos ha permitido obtener una visión integral del mercado de AirBnB en Buenos Aires. Hemos identificado las áreas de mayor concentración de alojamientos, los tipos de propiedad y habitaciones predominantes, y la influencia de la ubicación y las características en los precios. Además, se destacó la estacionalidad en la disponibilidad y la importancia de ciertos servicios y la relación con la ocupación.
 
-## 7. Próximos Pasos
-
-Basado en este EDA, se podrían considerar los siguientes pasos para futuros análisis:
-
-* **Modelado predictivo de precios:** Desarrollar un modelo para predecir el precio de los alojamientos basándose en sus características.
-* **Análisis de sentimiento de las reseñas:** Utilizar técnicas de Procesamiento de Lenguaje Natural (NLP) para extraer insights más profundos de las reseñas.
-* **Análisis de la demanda estacional:** Investigar con mayor detalle los patrones de reserva y ocupación a lo largo del año.
-* **Comparación con otras ciudades:** Realizar un análisis comparativo con datasets de AirBnB de otras metrópolis.
-
-## 8. Cómo Ejecutar el Código
-
-Para replicar este análisis, sigue los siguientes pasos:
-
-1.  Clona este repositorio:
-    ```bash
-    git clone [https://github.com/tu_usuario/tu_repositorio.git](https://github.com/tu_usuario/tu_repositorio.git)
-    cd tu_repositorio
-    ```
-2.  Asegúrate de tener Python instalado (versión 3.x recomendada).
-3.  Instala las librerías necesarias utilizando `pip`:
-    ```bash
-    pip install pandas numpy matplotlib seaborn geopandas missingno statsmodels
-    ```
-4.  Descarga el dataset de AirBnB para Buenos Aires desde [Inside AirBnB](https://insideairbnb.com/get-the-data/) y colócalo en el directorio raíz del proyecto (o ajusta la ruta en el notebook `TP1_AdD.ipynb`).
-5.  Abre y ejecuta el notebook Jupyter:
-    ```bash
-    jupyter notebook TP1_AdD.ipynb
-    ```
-
-## 9. Contribuciones
-
-Las contribuciones son bienvenidas. Si tienes sugerencias, mejoras o encuentras algún error, no dudes en abrir un *issue* o enviar un *pull request*.
-
-## 10. Licencia
-
-Este proyecto está bajo la Licencia [Tipo de Licencia, ej. MIT]. Consulta el archivo `LICENSE` para más detalles.
