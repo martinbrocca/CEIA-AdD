@@ -1,11 +1,11 @@
 # Carrera de Especialización de Inteligencia Artificial (CEIA)
 
-# Trabajos Práctico Número 1
+# Trabajo Práctico Número 1
 ### Grupo: 
 
           - Martín A. Brocca 
           - Agustín A. Lopez Fredes 
-          - 
+  
 # Análisis Exploratorio de Datos del Dataset de AirBnB en Buenos Aires
 
 Este repositorio contiene un análisis exploratorio de datos (EDA) realizado sobre un dataset público de AirBnB correspondiente a la ciudad de Buenos Aires. El objetivo de este análisis es obtener una comprensión inicial de los datos, identificar patrones, tendencias y posibles áreas de interés para futuros análisis o modelos predictivos.
@@ -96,7 +96,9 @@ Los precios de los alojamientos varían significativamente, influenciados por fa
 La capacidad de los alojamientos se ajusta a diferentes necesidades de los viajeros.
 
 ![Informe turístico de Buenos Aires](./images/turistas_en_BA.png)
+
 ![Histograma de Número de Camas](./images/distribucion_numero_camas.png)
+
 ![Histograma de Número de Baños](./images/distribucion_numero_banos.png)
 
 **Highlight:** La mayoría de los alojamientos están diseñados para una o dos personas, con una o dos camas y un baño, lo que sugiere una oferta orientada a viajeros individuales o parejas. Las propiedades de menor tamaño (menor número de camas y habitaciones) presentan mayor ocupación.
