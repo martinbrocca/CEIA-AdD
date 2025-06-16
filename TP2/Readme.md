@@ -21,6 +21,7 @@
 ### 1. Análisis exploratorio y distribución de clases
 
 Se analizaron las clases del conjunto de entrenamiento original, observando su distribución inicial. Luego se aplicaron técnicas de balanceo para corregir los desbalances.
+Para ello se asume como variable target del problema la disponibilidad de la propiedad a fin de año, de esta manera, el supuesto problema a predecir con los modelos seria sobre la variable *availability_eoy*
 
 **Distribución original de clases:**
 
@@ -89,17 +90,15 @@ Se analizaron las clases del conjunto de entrenamiento original, observando su d
   - Variables como precio_habitacion, Sin_reviews, y accommodates aportan menor cantidad de información, pero no son despreciables.
   - Algunas variables, como review_scores_rating, tienen muy baja información mutua, lo que sugiere escasa relación con la disponibilidad.
 
----
 
-## 🖼️ Otros recursos visuales
+### 5. Reducción de variables
+* **PCA** 
+  - Tras aplicar PCA, se redujo la dimensionalidad del conjunto de datos de 28 a 9 variables, conservando aproximadamente el 95% de la varianza total. 
+  - Del resultado, las primeras tres componentes explican más del 62% de la varianza, lo que indica que gran parte de la información original está concentrada en pocas dimensiones.
 
-- Matriz de correlación de features: `./images/tp2_corr_matrix.png`
-- Visualización del conjunto de entrenamiento: `./images/conjunto_de_train.png`
-- Comparaciones visuales de distribuciones antes y después del balanceo:
-  - `./images/distribuciones_columnas.png`
-  - `./images/ditribuciones_original_vs_balanceadas.png`
+![Varianza PCA](../images/varianza_explicada_pca.png)
 
----
-
-## 📁 Estructura del repositorio
-
+* **UMAP**
+  - Al aplicar UMAP para reducir la dimensionalidad del dataset de 25 variables originales a 2 dimensiones, se logró una representación mucho más compacta para entrenamiento y prueba (ambos con 25,257 muestras). 
+  - Sin embargo, el puntaje de Silhouette negativo (-0.2539) indica que la separación entre las clases no es clara en este espacio reducido, sugiriendo que los grupos están bastante solapados o mal definidos tras la transformación.
+![Distribución_Target_Umap](../images/distribucion_umap.png)
